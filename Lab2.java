@@ -1,10 +1,10 @@
-// Programmers:  [your names here]
+// Programmers:  Costa Marmaras, Sean
 // Course:  CS 212
-// Due Date:
-// Lab Assignment:
-// Problem Statement:
-// Data In:
-// Data Out:
+// Due Date: 2/4/24
+// Lab Assignment: 2
+// Problem Statement: Create a program that creates 10 different lottery tickets and the prize pool
+// Data In: users name
+// Data Out: 10 lottery tickets, a good luck message, the prize pool
 // Credits: [Is your code based on an example in the book, in class, or something else?
 //            Reminder: you should never take code from the Internet or another person
 
