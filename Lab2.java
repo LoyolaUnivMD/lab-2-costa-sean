@@ -9,6 +9,8 @@
 //            Reminder: you should never take code from the Internet or another person
 
 import java.util.Scanner;
+import java.util.Random;
+import java.text.DecimalFormat;
 
 class Lab2 {
     public static void main(String[] args) {
@@ -24,6 +26,7 @@ class Lab2 {
         int index = customerName.indexOf(' ');
         String firstName = customerName.substring(0, index);
         System.out.println(firstName);
+
 
     }
 }
