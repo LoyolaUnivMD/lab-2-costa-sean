@@ -20,8 +20,10 @@ class Lab2 {
         
         System.out.print("What's your name? ");
 
-        String customerName = input.nextLine();
-
+        String customerName = input.nextLine().trim();
+        int index = customerName.indexOf(' ');
+        String firstName = customerName.substring(0, index);
+        System.out.println(firstName);
 
     }
 }

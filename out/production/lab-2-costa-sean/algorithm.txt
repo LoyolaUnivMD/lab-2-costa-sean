@@ -1,0 +1,10 @@
+print out description of the program
+ask for the player's name
+for int i = 0, i<10, i++:
+    for int j = 0, j<6, j++:
+        generate random number from 0-99 and print on same line
+        if number < 10 add a zero in front of that number
+    print new line
+print good luck statement with player's name
+print prize money
+
