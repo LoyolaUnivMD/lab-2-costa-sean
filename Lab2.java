@@ -5,8 +5,7 @@
 // Problem Statement: Create a program that creates 10 different lottery tickets and the prize pool
 // Data In: users name
 // Data Out: 10 lottery tickets, a good luck message, the prize pool
-// Credits: [Is your code based on an example in the book, in class, or something else?
-//            Reminder: you should never take code from the Internet or another person
+// Credits: Notes #3, page 4
 
 import java.util.Scanner;
 import java.util.Random;
