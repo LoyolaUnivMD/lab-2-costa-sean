@@ -37,7 +37,11 @@ class Lab2 {
             }
             System.out.println();
         }
-
+        System.out.println("-----------------");
+        System.out.println("Good luck " + customerName +"!");
+        System.out.println("Estimated Jackpot: ");
+        System.out.println("$" + prize);
+        System.out.println("-----------------");
 
 
     }
