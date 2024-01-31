@@ -16,6 +16,8 @@ class Lab2 {
     public static void main(String[] args) {
         long prize = 225938745L;
         Scanner input = new Scanner(System.in);
+        Random rand = new Random();
+        DecimalFormat twoDigits = new DecimalFormat("##");
 
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
@@ -23,9 +25,19 @@ class Lab2 {
         System.out.print("What's your name? ");
 
         String customerName = input.nextLine().trim();
-        int index = customerName.indexOf(' ');
-        String firstName = customerName.substring(0, index);
-        System.out.println(firstName);
+        if(customerName.indexOf(' ') > 0) {
+            int index = customerName.indexOf(' ');
+            customerName = customerName.substring(0, index);
+        }
+
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 6; j++) {
+                int lotteryNumber = rand.nextInt(99);
+                System.out.print(twoDigits.format(lotteryNumber) + " ");
+            }
+            System.out.println();
+        }
+
 
 
     }
