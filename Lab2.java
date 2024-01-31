@@ -17,7 +17,7 @@ class Lab2 {
         long prize = 225938745L;
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        DecimalFormat twoDigits = new DecimalFormat("##");
+        DecimalFormat twoDigits = new DecimalFormat("00");
 
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
