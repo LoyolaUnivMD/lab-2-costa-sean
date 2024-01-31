@@ -6,6 +6,7 @@ ask for the player's name
 create for loop that loops 10 times:
     create for loop that loops 6 times:
         generate random number from 0-99 and print on same line
+        if number < 10 add a zero in front of that number
     print new line
 print good luck statement with player's name
 print prize money
