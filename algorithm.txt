@@ -1,7 +1,10 @@
+import scanner
+import decimalformat
+import random
 print out description of the program
 ask for the player's name
-for int i = 0, i<10, i++:
-    for int j = 0, j<6, j++:
+create for loop that loops 10 times:
+    create for loop that loops 6 times:
         generate random number from 0-99 and print on same line
     print new line
 print good luck statement with player's name
