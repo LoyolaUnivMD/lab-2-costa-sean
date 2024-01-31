@@ -3,6 +3,8 @@ import decimalformat
 import random
 print out description of the program
 ask for the player's name
+intake name from user
+trim name to first name only
 create for loop that loops 10 times:
     create for loop that loops 6 times:
         generate random number from 0-99 and print on same line
